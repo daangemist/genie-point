@@ -1,0 +1,26 @@
+{
+  "name": "genie-point",
+  "version": "0.1.0",
+  "description": "Client/server that integrates genie-ai to enable devices to listen and speak. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matueranet/genie-point.git"
+  },
+  "keywords": [
+    "genie",
+    "stt",
+    "tts",
+    "ai",
+    "node"
+  ],
+  "author": "matueranet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matueranet/genie-point/issues"
+  },
+  "homepage": "https://github.com/matueranet/genie-point#readme"
+}
