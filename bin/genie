@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+let genie = require('../genie');
+
+let argv = require('yargs')
+  .usage('Usage: $0')
+  .option('c', {
+    alias: 'config',
+    describe: 'The configuration file.',
+    default: './config.json|~/.genie/config.json|/etc/genie/config.json'
+  })
+  .version(require('../package').version)
+  .argv;
